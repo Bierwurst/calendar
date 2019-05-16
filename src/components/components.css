@@ -1,0 +1,9 @@
+.calendar-wrapper{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.b-size{
+    min-width: 20%;
+    margin: 5px;
+}
