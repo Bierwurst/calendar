@@ -1,3 +1,5 @@
+
+
 .calendar-wrapper{
     max-width: 1000px;
     margin: auto;
@@ -6,45 +8,37 @@
 .b-size{
     min-width: 20%;
     margin: 5px;
-    height: 200px;
+    min-height: 200px;
 }
 
 .btn-bgr-number-1{
-    transition: all 1s ease;
-    min-width: 20%;
+    min-width: 40%;
     margin: 5px;
-    height: 200px;
-    background: no-repeat center url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Square_200x200.svg/1200px-Square_200x200.svg.png");
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/16.png");
+    background-size: contain;
 }
-.btn-bgr-number-1:hover{
-    height: 400px;
-    width: 40%;
-    transform: rotateX(30deg);
-    transform: rotateY(30deg);
+
+.btn-bgr-number-2{
+    min-width: 40%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://www.frankfurt-tourismus.de/extension/portal-frankfurt/var/storage/images/media/bibliothek/feste/frankfurter-weihnachtsmarkt-baum-justitia-imbiss/871577-1-ger-DE/Frankfurter-Weihnachtsmarkt-Baum-Justitia-Imbiss_front_magnific.jpg");
+    background-size: contain;
+}
+
+.btn-bgr-number-3{
+    min-width: 40%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/16.png");
+    background-size: contain;
 }
 
 .btn-bgr-number-16{
-    animation: slidein 3s ease-in 1s reverse both running;
-    min-width: 20%;
+    min-width: 40%;
     margin: 5px;
-    height: 200px;
-    background: no-repeat center/20% url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Square_200x200.svg/1200px-Square_200x200.svg.png");
-    /* background-image: url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/16}.png") */
-}
-@keyframes slidein { from { margin-left: -20%; } to { margin-left: 100%; }  }
-
-/* .btn-bgr-number-16{
-background-color: red;
-} */
-
-.btn-bgr-number-17{
-    min-width: 20%;
-    margin: 5px;
-    height: 200px;
-    background: no-repeat center/80% url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/17}.png");
-}
-.videolink{
-    width: 20%;
-    height: 20px;
-    background-color: black;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/16.png");
+    background-size: contain;
 }

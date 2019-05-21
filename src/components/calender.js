@@ -51,7 +51,7 @@ class Calender extends Component{
             {/* {console.log(this.state.date, 'day number is', this.state.date.getDate())}
             {console.log(this.state)} */}
                 <h5 className="text-center">Hello from Calender</h5>
-                <div className="d-flex">
+                <div className="d-flex flex-wrap">
                     <ul>
                         {numbers.map((number, i) =><Window  key={i} number={number} {...this.state}/>)}
                     </ul>

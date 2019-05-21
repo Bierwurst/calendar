@@ -45,13 +45,16 @@ class Window extends Component{
 
 
     render(){
-
+        let number = this.props.number;
         return(
-            
+            <button className={this.state.class} date={this.props.date} onClick={this.handleClick}>{this.state.number}</button>
 
             // {console.log(this.state.number, this.state.day)}
-
-                <button className={this.state.class} date={this.props.date} onClick={this.handleClick}>{this.state.number}</button>
+            // (this.state.number < this.state.day) 
+            // ? 
+            // <button className={`btn btn-bgr-number-${number}`} date={this.props.date} onClick={this.handleClick}></button>
+            // :
+            // <button className={this.state.class} date={this.props.date} onClick={this.handleClick}>{this.state.number}</button>
 
 
 
