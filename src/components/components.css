@@ -3,16 +3,35 @@
 .calendar-wrapper{
     max-width: 1000px;
     margin: auto;
+    min-width: 24%;
+    padding: 2%;
+}
+.link-style{
+    background-color: brown;
+    border-radius: 5%;
+    padding: 5%;
+    max-width: 90%;
+    margin: 5px;
+
+}
+.link-style a{
+    color: white;
 }
 
+.b-container{
+    min-width: 24%;
+    min-height: 250px;
+    padding: 2%;
+}
 .b-size{
-    min-width: 20%;
+    min-width: 90%;
     margin: 5px;
     min-height: 200px;
 }
 
 .btn-bgr-number-1{
-    min-width: 40%;
+    min-width: 92%;
+    padding: 5%;
     margin: 5px;
     min-height: 200px;
     background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/16.png");

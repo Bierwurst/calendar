@@ -9,7 +9,7 @@ class Window extends Component{
         this.state = {
             number: this.props.number,
             day: this.props.date.getDate(),
-            class: "btn btn-primary b-size btn-bgr-number-",
+            class: "btn btn-success b-size btn-bgr-number-",
             toggle: this.props.toggle
         }
         this.handleClick = this.handleClick.bind(this);
@@ -37,7 +37,7 @@ class Window extends Component{
         }) 
         :    
             this.setState({
-                    class: "btn btn-primary b-size btn-bgr-number-",
+                    class: "btn btn-success b-size btn-bgr-number-",
                     toggle: !this.state.toggle
                 })
 
@@ -47,7 +47,14 @@ class Window extends Component{
     render(){
         let number = this.props.number;
         return(
-            <button className={this.state.class} date={this.props.date} onClick={this.handleClick}>{this.state.number}</button>
+            <div className="b-container">
+                <button className={this.state.class} date={this.props.date} onClick={this.handleClick}>{this.state.number}</button>
+                <div className="text-center link-style">
+                <a  href="https://www.youtube.com/watch?v=L1O0suGglg4">Day{this.state.number} Surprise</a>
+                </div>
+                
+            </div>
+            
 
             // {console.log(this.state.number, this.state.day)}
             // (this.state.number < this.state.day) 
