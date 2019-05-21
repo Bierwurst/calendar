@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Window from './window';
 import './components.css';
 
 
@@ -11,26 +12,27 @@ class Calender extends Component{
             day: 0,
             condition: false,
             link: null,
+            toggle: true
             
         };
 
     }
      
  
-    handleClick(e) {
-        this.setState({
-            date: new Date(),
-            day: this.state.date.getDate(),
-            condition:true, 
-            link:window.open(`https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/${Number(e.target.innerHTML)}.png`, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0')
-        })
-            // console.log('this is:', Number(e.target.innerHTML), this.state.day);
+    // handleClick(e) {
+    //     this.setState({
+    //         date: new Date(),
+    //         day: this.state.date.getDate(),
+    //         condition:true 
+    //         // link:window.open(`https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/${Number(e.target.innerHTML)}.png`, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0')
+    //     })
+    //         // console.log('this is:', Number(e.target.innerHTML), this.state.day);
 
-            // CONDITION !!! ONLY OPEN A NEW WINDOW WHEN THE DAY AND THE DATE MATCH  
-            // YOU HAVE TO CHANGE THE STATE.LINK TO: --> link:window.open(`https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/${this.state.day}.png`, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0')
+    //         // CONDITION !!! ONLY OPEN A NEW WINDOW WHEN THE DAY AND THE DATE MATCH  
+    //         // YOU HAVE TO CHANGE THE STATE.LINK TO: --> link:window.open(`https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/${this.state.day}.png`, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0')
 
-            // Number(e.target.innerHTML) === this.state.day ?  this.setState({condition:true, link:window.open(`https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/${this.state.day}.png`, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0')}) : this.setState({condition:false, link:null});
-      }
+    //         // Number(e.target.innerHTML) === this.state.day ?  this.setState({condition:true, link:window.open(`https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/${this.state.day}.png`, 'mywin','left=20,top=20,width=500,height=500,toolbar=1,resizable=0')}) : this.setState({condition:false, link:null});
+    //   }
     
     componentDidMount(){
         this.setState({
@@ -51,7 +53,7 @@ class Calender extends Component{
                 <h5 className="text-center">Hello from Calender</h5>
                 <div className="d-flex">
                     <ul>
-                        {numbers.map((number, i) =><a href={link} key={i}><button className="btn btn-secondary b-size" date={date} onClick={(e) => this.handleClick(e)}>{number}</button></a>)}
+                        {numbers.map((number, i) =><Window  key={i} number={number} {...this.state}/>)}
                     </ul>
                 </div>
            </div>
