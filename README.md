@@ -1,4 +1,22 @@
+# A christmas calender done with react 
+
+to use the calender please clone the repository and install the packages, I used yarn install
+
+You can use your own links for the surprise of the day by changing the "surprise" array in the state of Calender.
+
+As well use your own images by changing the background images in the components CSS file in ".btn-bgr-number-".
+
+Also change in the windows.js handleClick() function the condition from "this.state.toggle" to "this.state.toggle && this.state.number <= this.state.day && this.state.month ===12", so nobody will cheat to see christmas goodies before its time 
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
