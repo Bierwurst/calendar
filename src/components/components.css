@@ -1,10 +1,14 @@
+.headline{
+    font-size: 5rem;
 
+}
 
-.calendar-wrapper{
+.window-wrapper{
     max-width: 1000px;
     margin: auto;
     min-width: 24%;
     padding: 2%;
+
 }
 .link-style{
     background-color: brown;
@@ -29,7 +33,147 @@
     min-height: 200px;
 }
 
+.dontShow{
+    display: none;
+}
+
 .btn-bgr-number-1{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/1.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-2{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/2.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-3{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/3.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-4{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/4.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-5{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/5.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-6{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/6.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-7{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/7.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-8{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/8.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-9{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/9.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-10{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/10.png");
+    background-size: contain;
+}
+
+
+.btn-bgr-number-11{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/11.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-12{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/12.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-13{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/13.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-14{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/14.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-15{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/15.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-16{
     min-width: 92%;
     padding: 5%;
     margin: 5px;
@@ -38,26 +182,74 @@
     background-size: contain;
 }
 
-.btn-bgr-number-2{
-    min-width: 40%;
+.btn-bgr-number-17{
+    min-width: 92%;
+    padding: 5%;
     margin: 5px;
     min-height: 200px;
-    background: no-repeat center url("https://www.frankfurt-tourismus.de/extension/portal-frankfurt/var/storage/images/media/bibliothek/feste/frankfurter-weihnachtsmarkt-baum-justitia-imbiss/871577-1-ger-DE/Frankfurter-Weihnachtsmarkt-Baum-Justitia-Imbiss_front_magnific.jpg");
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/17.png");
     background-size: contain;
 }
 
-.btn-bgr-number-3{
-    min-width: 40%;
+.btn-bgr-number-18{
+    min-width: 92%;
+    padding: 5%;
     margin: 5px;
     min-height: 200px;
-    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/16.png");
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/18.png");
     background-size: contain;
 }
 
-.btn-bgr-number-16{
-    min-width: 40%;
+.btn-bgr-number-19{
+    min-width: 92%;
+    padding: 5%;
     margin: 5px;
     min-height: 200px;
-    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/16.png");
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/19.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-20{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/20.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-21{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/21.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-22{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/22.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-23{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/23.png");
+    background-size: contain;
+}
+
+.btn-bgr-number-24{
+    min-width: 92%;
+    padding: 5%;
+    margin: 5px;
+    min-height: 200px;
+    background: no-repeat center url("https://res.cloudinary.com/woelkchen/image/upload/v1555077415/testerimages/24.png");
     background-size: contain;
 }
